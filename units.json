@@ -1,0 +1,799 @@
+[{
+    "symbol": "m",
+    "name": "meter",
+    "base": true,
+    "quantities": ["Length", "Distance traveled", "Initial distance", "Vertical distance", "Horizontal distance", "Wavelength", "Radius", "Diameter"],
+    "locals": {
+        "de": {
+            "name": "Meter"
+        }
+    }
+}, {
+    "symbol": "in",
+    "name": "inch",
+    "to_base": "/0.254",
+    "quantities": ["Length", "Distance traveled", "Initial distance", "Vertical distance", "Horizontal distance", "Wavelength", "Radius", "Diameter"],
+    "locals": {
+        "de": {
+            "name": "Zoll"
+        }
+    }
+}, {
+    "symbol": "ft",
+    "name": "foot",
+    "to_base": "/3.048",
+    "quantities": ["Length", "Distance traveled", "Initial distance", "Vertical distance", "Horizontal distance", "Wavelength", "Radius", "Diameter"],
+    "locals": {
+        "de": {
+            "name": "Fuß"
+        }
+    }
+}, {
+    "symbol": "yd",
+    "name": "yard",
+    "to_base": "/9.144",
+    "quantities": ["Length", "Distance traveled", "Initial distance", "Vertical distance", "Horizontal distance", "Wavelength", "Radius", "Diameter"],
+    "locals": {
+        "de": {
+            "name": "Yard"
+        }
+    }
+}, {
+    "symbol": "mi",
+    "name": "miles",
+    "to_base": "/16093.44",
+    "quantities": ["Length", "Distance traveled", "Initial distance", "Vertical distance", "Horizontal distance", "Wavelength", "Radius", "Diameter"],
+    "locals": {
+        "de": {
+            "name": "Meile"
+        }
+    }
+}, {
+    "symbol": "kg",
+    "base_symbol": "g",
+    "name": "kilogram",
+    "base_name": "gram",
+    "base": true,
+    "quantities": ["Mass"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Kilogramm",
+            "base_name": "Gramm"
+        }
+    }
+}, {
+    "symbol": "u",
+    "name": "atomic mass",
+    "to_base": "/0.000000000000000000000000166054",
+    "quantities": ["Mass"],
+    "locals": {
+        "de": {
+            "name": "Atomare Masse"
+        }
+    }
+}, {
+    "symbol": "lbs",
+    "name": "pound",
+    "to_base": "/4.53592",
+    "quantities": ["Mass"],
+    "locals": {
+        "de": {
+            "name": "Pfund"
+        }
+    }
+}, {
+    "symbol": "s",
+    "name": "second",
+    "base": true,
+    "quantities": ["Time", "Period"],
+    "locals": {
+        "de": {
+            "name": "Sekunde"
+        }
+    }
+}, {
+    "symbol": "minute",
+    "name": "minute",
+    "to_base": "*60",
+    "quantities": ["Time", "Period"],
+    "locals": {
+        "de": {
+            "name": "Minute"
+        }
+    }
+}, {
+    "symbol": "hour",
+    "name": "hour",
+    "to_base": "*3600",
+    "quantities": ["Time", "Period"],
+    "locals": {
+        "de": {
+            "name": "Stunde"
+        }
+    }
+}, {
+    "symbol": "day",
+    "name": "day",
+    "to_base": "*86400",
+    "quantities": ["Time", "Period"],
+    "locals": {
+        "de": {
+            "name": "Tag"
+        }
+    }
+}, {
+    "symbol": "week",
+    "name": "week",
+    "to_base": "*604800",
+    "quantities": ["Time", "Period"],
+    "locals": {
+        "de": {
+            "name": "Woche"
+        }
+    }
+}, {
+    "symbol": "year",
+    "name": "year",
+    "to_base": "*31557600",
+    "quantities": ["Time", "Period"],
+    "locals": {
+        "de": {
+            "name": "Jahr"
+        }
+    }
+}, {
+    "symbol": "A",
+    "name": "ampere",
+    "base": true,
+    "quantities": ["Electric current"],
+    "locals": {
+        "de": {
+            "name": "Ampere"
+        }
+    }
+}, {
+    "symbol": "K",
+    "name": "kelvin",
+    "base": true,
+    "quantities": ["Temperature"],
+    "locals": {
+        "de": {
+            "name": "Kelvin"
+        }
+    }
+}, {
+    "symbol": "°C",
+    "name": "celsius",
+    "to_base": "+273.15",
+    "quantities": ["Temperature"],
+    "locals": {
+        "de": {
+            "name": "Grad Celsius"
+        }
+    }
+}, {
+    "symbol": "°F",
+    "name": "fahrenheit",
+    "to_base": "*(5/9)+459.67*(5/9)",
+    "f_base": "*(9/5)-459.67",
+    "quantities": ["Temperature"],
+    "locals": {
+        "de": {
+            "name": "Grad Fahrenheit"
+        }
+    }
+}, {
+    "symbol": "mol",
+    "name": "mole",
+    "base": true,
+    "quantities": ["Amount of substance"],
+    "locals": {
+        "de": {
+            "name": "Mol"
+        }
+    }
+}, {
+    "symbol": "cd",
+    "name": "candela",
+    "base": true,
+    "quantities": ["Luminous intensity"],
+    "locals": {
+        "de": {
+            "name": "Candela"
+        }
+    }
+}, {
+    "symbol": "m s<sup>-2</sup>",
+    "name": "meter per square second",
+    "base": true,
+    "quantities": ["Acceleration"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Meter pro Quadratsekunde"
+        }
+    }
+}, {
+    "symbol": "rad s<sup>-2</sup>",
+    "name": "rad per square second",
+    "base": true,
+    "quantities": ["Angular acceleration"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Rad pro Quadratsekunde"
+        }
+    }
+}, {
+    "symbol": "rad s<sup>-1</sup>",
+    "name": "rad per second",
+    "base": true,
+    "quantities": ["Angular velocity"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Rad pro Sekunde"
+        }
+    }
+}, {
+    "symbol": "m²",
+    "name": "square meter",
+    "base": true,
+    "quantities": ["Area"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Quadratmeter"
+        }
+    }
+}, {
+    "symbol": "kg m<sup>-2</sup>",
+    "name": "kilogram per square meter",
+    "base": true,
+    "quantities": ["Area density", "Moment of inertia"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Kilogramm pro Quadratmeter"
+        }
+    }
+}, {
+    "symbol": "F",
+    "name": "farad",
+    "base": true,
+    "quantities": ["Capacitance"],
+    "locals": {
+        "de": {
+            "name": "Farad"
+        }
+    }
+}, {
+    "symbol": "J mol<sup>-1</sup>",
+    "name": "joule per mole",
+    "base": true,
+    "quantities": ["Chemical potential"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Joule pro Mol"
+        }
+    }
+}, {
+    "symbol": "A m<sup>-2</sup>",
+    "name": "ampere per square meter",
+    "base": true,
+    "quantities": ["Current density"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Ampere pro Quadratmeter"
+        }
+    }
+}, {
+    "symbol": "C",
+    "name": "coulomb",
+    "base": true,
+    "quantities": ["Electric charge"],
+    "locals": {
+        "de": {
+            "name": "Coulomb"
+        }
+    }
+}, {
+    "symbol": "C m<sup>-3</sup>",
+    "name": "coulomb per cubic meter",
+    "base": true,
+    "quantities": ["Electric charge density"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Coulomb pro Kubikmeter"
+        }
+    }
+}, {
+    "symbol": "C m<sup>-2</sup>",
+    "name": "coulomb per square meter",
+    "base": true,
+    "quantities": ["Electric displacement"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Coulomb pro Quadratmeter"
+        }
+    }
+}, {
+    "symbol": "V m<sup>-1</sup>",
+    "name": "volt per meter",
+    "base": true,
+    "quantities": ["Electric field strength"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Volt pro Meter"
+        }
+    }
+}, {
+    "symbol": "S",
+    "name": "siemens",
+    "base": true,
+    "quantities": ["Electrical conductance"],
+    "locals": {
+        "de": {
+            "name": "Siemens"
+        }
+    }
+}, {
+    "symbol": "S m<sup>-1</sup>",
+    "name": "siemens per meter",
+    "base": true,
+    "quantities": ["Electrical conductivity"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Siemens pro Meter"
+        }
+    }
+}, {
+    "symbol": "V",
+    "name": "volt",
+    "base": true,
+    "quantities": ["Electric potential"],
+    "locals": {
+        "de": {
+            "name": "Volt"
+        }
+    }
+}, {
+    "symbol": "Ω",
+    "name": "ohm",
+    "base": true,
+    "quantities": ["Electrical resistance", "Impedance"],
+    "locals": {
+        "de": {
+            "name": "Ohm"
+        }
+    }
+}, {
+    "symbol": "Ω m",
+    "name": "ohm meter",
+    "base": true,
+    "quantities": ["Electrical resistivity"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Ohmmeter"
+        }
+    }
+}, {
+    "symbol": "J",
+    "name": "joule",
+    "base": true,
+    "quantities": ["Energy", "Kinetic energy", "Potential energy", "Mechanical energy", "Heat", "Work"],
+    "locals": {
+        "de": {
+            "name": "Joule"
+        }
+    }
+}, {
+    "symbol": "J m<sup>-3</sup>",
+    "name": "joule per cubic meter",
+    "base": true,
+    "quantities": ["Energy density"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Joule pro Kubikmeter"
+        }
+    }
+}, {
+    "symbol": "J K<sup>-1</sup>",
+    "name": "joule per kelvin",
+    "base": true,
+    "quantities": ["Entropy", "Heat capacity"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Joule pro Kelvin"
+        }
+    }
+}, {
+    "symbol": "N",
+    "name": "newton",
+    "base": true,
+    "quantities": ["Force", "Weight", "Centripetal force", "Friction", "Normal force", "Buoyancy", "Pressure force"],
+    "locals": {
+        "de": {
+            "name": "Newton"
+        }
+    }
+}, {
+    "symbol": "Hz",
+    "name": "hertz",
+    "base": true,
+    "quantities": ["Frequency"],
+    "locals": {
+        "de": {
+            "name": "Hertz"
+        }
+    }
+}, {
+    "symbol": "W m<sup>-2</sup>",
+    "name": "watt per square meter",
+    "base": true,
+    "quantities": ["Heat flux density", "Intensity"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Watt pro Quadratmeter"
+        }
+    }
+}, {
+    "symbol": "lx",
+    "name": "lux",
+    "base": true,
+    "quantities": ["Illuminance"],
+    "locals": {
+        "de": {
+            "name": "Lux"
+        }
+    }
+}, {
+    "symbol": "N s",
+    "name": "newton second",
+    "base": true,
+    "quantities": ["Impulse", "Momentum"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Newtonsekunde"
+        }
+    }
+}, {
+    "symbol": "H",
+    "name": "henry",
+    "base": true,
+    "quantities": ["Inductance"],
+    "locals": {
+        "de": {
+            "name": "Henry"
+        }
+    }
+}, {
+    "symbol": "lm",
+    "name": "lumen",
+    "base": true,
+    "quantities": ["Luminous flux"],
+    "locals": {
+        "de": {
+            "name": "Lumen"
+        }
+    }
+}, {
+    "symbol": "A m<sup>-1</sup>",
+    "name": "ampere per meter",
+    "base": true,
+    "quantities": ["Magnetic field strength", "Magnetization"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Ampere pro Meter"
+        }
+    }
+}, {
+    "symbol": "Wb",
+    "name": "weber",
+    "base": true,
+    "quantities": ["Magnetic flux"],
+    "locals": {
+        "de": {
+            "name": "Weber"
+        }
+    }
+}, {
+    "symbol": "T",
+    "name": "tesla",
+    "base": true,
+    "quantities": ["Magnetic flux density"],
+    "locals": {
+        "de": {
+            "name": "Tesla"
+        }
+    }
+}, {
+    "symbol": "kg m<sup>-3</sup>",
+    "name": "kilogram per cubic meter",
+    "base": true,
+    "quantities": ["Density"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Kilogramm pro Kubikmeter"
+        }
+    }
+}, {
+    "symbol": "mol m<sup>-3</sup>",
+    "name": "mole per cubic meter",
+    "base": true,
+    "quantities": ["Molar concentration"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Mol pro Kubikmeter"
+        }
+    }
+}, {
+    "symbol": "J K<sup>-1</sup> mol<sup>-1</sup>",
+    "name": "joule per kelvin mole",
+    "base": true,
+    "quantities": ["Molar heat capacity"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Joule pro Kelvinmol"
+        }
+    }
+}, {
+    "symbol": "H m<sup>-1</sup>",
+    "name": "henry per meter",
+    "base": true,
+    "quantities": ["Permeability"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Henry pro Meter"
+        }
+    }
+}, {
+    "symbol": "F m<sup>-1</sup>",
+    "name": "farad per meter",
+    "base": true,
+    "quantities": ["Permittivity"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Farad pro Meter"
+        }
+    }
+}, {
+    "symbol": "rad",
+    "name": "radian",
+    "base": true,
+    "quantities": ["Plain angle"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Radiant"
+        }
+    }
+}, {
+    "symbol": "°",
+    "name": "degree",
+    "to_base": "*3.14159265359/180",
+    "f_base": "*180/3.14159265359",
+    "quantities": ["Plain angle"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Grad"
+        }
+    }
+}, {
+    "symbol": "W",
+    "name": "watt",
+    "base": true,
+    "quantities": ["Power"],
+    "locals": {
+        "de": {
+            "name": "Watt"
+        }
+    }
+}, {
+    "symbol": "Pa",
+    "name": "pascal",
+    "base": true,
+    "quantities": ["Pressure", "Stress"],
+    "locals": {
+        "de": {
+            "name": "Pascal"
+        }
+    }
+}, {
+    "symbol": "mol m<sup>-3</sup> s<sup>-1</sup>",
+    "name": "mole per cubic meter second",
+    "base": true,
+    "quantities": ["Reaction rate"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Mol pro Quadratmetersekunde"
+        }
+    }
+}, {
+    "symbol": "m s<sup>-1</sup>",
+    "name": "meter per second",
+    "base": true,
+    "quantities": ["Speed", "Velocity", "Initial velocity"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Meter pro Sekunde"
+        }
+    }
+}, {
+    "symbol": "kg m<sup>2</sup> s<sup>-1</sup>",
+    "name": "kilogram square meter per second",
+    "base": true,
+    "quantities": ["Angular momentum", "Spin"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Kilogrammquadratmeter pro Sekunde"
+        }
+    }
+}, {
+    "symbol": "J m<sup>-2</sup>",
+    "name": "joule per square meter",
+    "base": true,
+    "quantities": ["Surface tension"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Joule pro Quadratmeter"
+        }
+    }
+}, {
+    "symbol": "W m<sup>-1</sup> K<sup>-1</sup>",
+    "name": "watt per meter kelvin",
+    "base": true,
+    "quantities": ["Thermal conductivity"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Watt pro Meterkelvin"
+        }
+    }
+}, {
+    "symbol": "N m",
+    "name": "newton meter",
+    "base": true,
+    "quantities": ["Torque"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Newtonmeter"
+        }
+    }
+}, {
+    "symbol": "m<sup>3</sup>",
+    "name": "cubic meter",
+    "base": true,
+    "quantities": ["Volume"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Kubikmeter"
+        }
+    }
+}, {
+    "symbol": "m<sup>-1</sup>",
+    "name": "per meter",
+    "base": true,
+    "quantities": ["Wavenumber"],
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "pro Meter"
+        }
+    }
+}, {
+    "symbol": "m<sup>3</sup> kg<sup>-1</sup> s<sup>-2</sup>",
+    "name": "cubic meter per kilogram square second",
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Kubikmeter pro Kilogrammquadratsekunde"
+        }
+    }
+}, {
+    "symbol": "J s",
+    "name": "joule second",
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Joulesekunde"
+        }
+    }
+}, {
+    "symbol": "N A<sup>-2</sup>",
+    "name": "newton per square meter",
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Newton pro Quadratampere"
+        }
+    }
+}, {
+    "symbol": "mol<sup>-1</sup>",
+    "name": "per mole",
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "pro Mol"
+        }
+    }
+}, {
+    "symbol": "A s mol<sup>-1</sup>",
+    "name": "ampere second per mole",
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Amperesekunde pro Mol"
+        }
+    }
+}, {
+    "symbol": "m<sup>-3</sup>",
+    "name": "per cubic meter",
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "pro Kubikmeter"
+        }
+    }
+}, {
+    "symbol": "W m<sup>-2</sup> K<sup>-4</sup>",
+    "name": "watt per square meter kelvin",
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Watt pro Quadratmeterkelvin"
+        }
+    }
+}, {
+    "symbol": "J K<sup>-1</sup> mol<sup>-1</sup>",
+    "name": "joule per kelvin mole",
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Joule pro Kelvinmol"
+        }
+    }
+}, {
+    "symbol": "m K",
+    "name": "meter kelvin",
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Meterkelvin"
+        }
+    }
+}, {
+    "symbol": "l mol<sup>-1</sup>",
+    "name": "liter per mole",
+    "si_prefixes?": false,
+    "locals": {
+        "de": {
+            "name": "Liter pro Mol"
+        }
+    }
+}]

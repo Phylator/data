@@ -1,0 +1,825 @@
+[{
+    "quantity": "Acceleration",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "F / m" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Movement",
+        "equations": [{ "equation": "v / t" }],
+        "locals": { "de": { "title": "Beliebige Bewegung" } }
+    }, {
+        "title": "Evenly accelerated movement",
+        "equations": [
+            { "equation": "( v - v_0 ) / t" },
+            { "equation": "2 * ( s - s_0 - v_0 * t ) / t^2" },
+            { "equation": "2 * s / t^2", "conditions": ["`s_0 = 0`", "`v_0 = 0`"] },
+            { "equation": "v / t", "conditions": ["`s_0 = 0`", "`v_0 = 0`"] },
+            { "equation": "v^2 / ( 2 * s )", "conditions": ["`s_0 = 0`", "`v_0 = 0`"] }
+        ],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Bewegung" } }
+    }, {
+        "title": "Translation and rotation",
+        "equations": [{ "equation": "a_α * r" }],
+        "locals": { "de": { "title": "Translation und Rotation" } }
+    }]
+}, {
+    "quantity": "Angular acceleration",
+    "categories": [{
+        "title": "Uniform circular motion",
+        "equations": [{ "equation": "v^2 / r" }, { "equation": "ω^2 * r" }],
+        "locals": { "de": { "title": "Gleichförmige Kreisbewegung" } }
+    }, {
+        "title": "Uniform rotation",
+        "equations": [{ "equation": "0" }],
+        "locals": { "de": { "title": "Gleichförmige Bewegung" } }
+    }, {
+        "title": "Evenly accelerated rotation",
+        "equations": [
+            { "equation": "( 2 * ( θ - ω_0 * t - θ_0 ) ) / t^2" },
+            { "equation": "( ω - ω_0 ) / t" },
+            { "equation": "( ω_1 - ω ) / ( t_1 - t )" },
+            { "equation": "( 2 * θ ) / t^2", "conditions": ["`θ_0 = 0`", "`ω_0 = 0`"] },
+            { "equation": "ω / t", "conditions": ["`θ_0 = 0`", "`ω_0 = 0`"] }
+        ],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Rotation" } }
+    }, {
+        "title": "Translation and rotation",
+        "equations": [{ "equation": "a / r" }],
+        "locals": { "de": { "title": "Translation und Rotation" } }
+    }, {
+        "title": "Dynamics of rotation",
+        "equations": [{ "equation": "τ / I_m" }],
+        "locals": { "de": { "title": "Dynamik der Rotation" } }
+    }]
+}, {
+    "quantity": "Angular momentum",
+    "categories": [{
+        "title": "Dynamics of rotation",
+        "equations": [{ "equation": "I_m * ω" }],
+        "locals": { "de": { "title": "Dynamik der Rotation" } }
+    }]
+}, {
+    "quantity": "Angular velocity",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "F_r / ( m * r )" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Uniform circular motion",
+        "equations": [{ "equation": "v / r" }, { "equation": "sqrt( a_α / r )" }],
+        "locals": { "de": { "title": "Gleichförmige Kreisbewegung" } }
+    }, {
+        "title": "Uniform rotation",
+        "equations": [
+            { "equation": "( θ - θ_0 ) / t" },
+            { "equation": "( θ_1 - θ ) / ( t_1 - t )" },
+            { "equation": "v / r" },
+            { "equation": "( 2 * π ) / T_t" },
+            { "equation": "2 * π * n_ω" }
+        ],
+        "locals": { "de": { "title": "Gleichförmige Bewegung" } }
+    }, {
+        "title": "Evenly accelerated rotation",
+        "equations": [
+            { "equation": "a_α * t + ω_0" },
+            { "equation": "a_α * t", "conditions": ["`θ_0 = 0`", "`ω_0 = 0`"] }
+        ],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Rotation" } }
+    }, {
+        "title": "Translation and rotation",
+        "equations": [{ "equation": "v / r" }],
+        "locals": { "de": { "title": "Translation und Rotation" } }
+    }, {
+        "title": "Dynamics of rotation",
+        "equations": [
+            { "equation": "sqrt( 2 * E_kin / I_m )" },
+            { "equation": "L_α / I_m" }
+        ],
+        "locals": { "de": { "title": "Dynamik der Rotation" } }
+    }, {
+        "title": "Mechanical power",
+        "equations": [{ "equation": "P / τ", "conditions": ["`τ = const`", "`ω = const`"] }],
+        "locals": { "de": { "title": "Mechanische Leistung" } }
+    }]
+}, {
+    "quantity": "Area",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "F_p / p_f" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }]
+}, {
+    "quantity": "Buoyancy",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "ρ * V * g_0" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }]
+}, {
+    "quantity": "Centripetal force",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "m * v^2 / r" }, { "equation": "m * 4 * π^2 * r / T_t^2" }, { "equation": "m * ω^2 * r" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }]
+}, {
+    "quantity": "Coefficient of friction",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "F_R / F_N" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }]
+}, {
+    "quantity": "Density",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "F_B / ( V * g_0 )" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }]
+}, {
+    "quantity": "Diameter",
+    "categories": [{
+        "title": "Basics",
+        "equations": [{ "equation": "2 * r" }],
+        "locals": { "de": { "title": "Basis" } }
+    }]
+}, {
+    "quantity": "Distance traveled",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [
+            { "equation": "W / F", "conditions": ["`∠(F, s) = 0`"] },
+            { "equation": "W / ( F * cos( θ ) )" }
+        ],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Uniform rectilinear motion",
+        "equations": [{ "equation": "v * t + s_0" }],
+        "locals": { "de": { "title": "Gleichförmige geradlinige Bewegung" } }
+    }, {
+        "title": "Evenly accelerated movement",
+        "equations": [
+            { "equation": "a / 2 * t^2 + v_0 * t + s_0" },
+            { "equation": "a / 2 * t^2", "conditions": ["`s_0 = 0`", "`v_0 = 0`"] },
+            { "equation": "( v * t ) / 2", "conditions": ["`s_0 = 0`", "`v_0 = 0`"] },
+            { "equation": "v^2 / ( 2 * a )", "conditions": ["`s_0 = 0`", "`v_0 = 0`"] }
+        ],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Bewegung" } }
+    }, {
+        "title": "Freefall",
+        "equations": [{ "equation": "g_0 / 2 * t^2" }, { "equation": "v^2 / ( 2 * g_0 )" }],
+        "locals": { "de": { "title": "Freier Fall" } }
+    }, {
+        "title": "Vertical throw upwards",
+        "equations": [{ "equation": "v_0^2 / ( 2 * g_0 )", "conditions": ["Ascended height"], "locals": { "de": { "conditions": ["Steighöhe"] } } }],
+        "locals": { "de": { "title": "Senkrechter Wurf nach oben" } }
+    }, {
+        "title": "Oblique throw",
+        "equations": [
+            { "equation": "( v_0^2 * sin( 2 * θ ) ) / g_0", "conditions": ["Throw length"], "locals": { "de": { "conditions": ["Wurfweite"] } } },
+            { "equation": "( v_0^2 * sin( θ )^2 ) / ( 2 * g_0 )", "conditions": ["Throw height"], "locals": { "de": { "conditions": ["Wurfhöhe"] } } }
+        ],
+        "locals": { "de": { "title": "Schräger Wurf" } }
+    }, {
+        "title": "Translation and rotation",
+        "equations": [{ "equation": "θ * r" }],
+        "locals": { "de": { "title": "Translation und Rotation" } }
+    }, {
+        "title": "Mechanical work",
+        "equations": [
+            { "equation": "W / w", "conditions": ["Lifting work"], "locals": { "de": { "conditions": ["Hubarbeit"] } } },
+            { "equation": "W / F_R", "conditions": ["Friction work"], "locals": { "de": { "conditions": ["Reibungsarbeit"] } } },
+            { "equation": "sqrt( 2 * W / k_D )", "conditions": ["Spring tensioning work"], "locals": { "de": { "conditions": ["Federspannarbeit"] } } }
+        ],
+        "locals": { "de": { "title": "Mechanische Arbeit" } }
+    }, {
+        "title": "Mechanical energy",
+        "equations": [{ "equation": "sqrt( 2 * E_pot / k_D )" }],
+        "locals": { "de": { "title": "Mechanische Energie" } }
+    }]
+}, {
+    "quantity": "Energy conversion efficiency",
+    "categories": [{
+        "title": "Mechanical power",
+        "equations": [
+            { "equation": "E_i_1 / E_i", "conditions": ["`E_i_1` - energy output", "`E_i` - energy input"], "locals": { "de": { "conditions": ["`E_i_1` - abgegebene Energie", "`E_i` - zugeführte Energie"] } } },
+            { "equation": "W_1 / W", "conditions": ["`W_1` - work output", "`W` - work input"], "locals": { "de": { "conditions": ["`W_1` - abgegebene Arbeit", "`W` - zugeführte Arbeit"] } } },
+            { "equation": "P_1 / P", "conditions": ["`P_1` - power output", "`P` - power input"], "locals": { "de": { "conditions": ["`P_1` - abgegebene Leistung", "`P` - zugeführte Leistung"] } } }
+        ],
+        "locals": { "de": { "title": "Mechanische Leistung" } }
+    }]
+}, {
+    "quantity": "Force",
+    "categories": [{
+        "title": "Forces in mechanics",
+        "equations": [
+            { "equation": "m * a" },
+            { "equation": "W / s", "conditions": ["`∠(F, s) = 0`"] },
+            { "equation": "W / ( s * cos( θ ) )" },
+            { "equation": "G_N * ( m * m_1 ) / r^2" }
+        ],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Newton's laws",
+        "equations": [{ "equation": "p / t" }],
+        "locals": { "de": { "title": "Newtonsche Gesetze" } }
+    }, {
+        "title": "Torque and balance",
+        "equations": [{ "equation": "τ / r", "conditions": ["`r ⊥ F`"] }],
+        "locals": { "de": { "title": "Drehmoment und Gleichgewicht" } }
+    }, {
+        "title": "Mechanical power",
+        "equations": [{ "equation": "P / v", "conditions": ["`v = const`", "`F = const`"] }],
+        "locals": { "de": { "title": "Mechanische Leistung" } }
+    }]
+}, {
+    "quantity": "Friction",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "μ_R * F_N" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Mechanical work",
+        "equations": [{ "equation": "W / s", "conditions": ["Friction work"], "locals": { "de": { "conditions": ["Reibungsarbeit"] } } }],
+        "locals": { "de": { "title": "Mechanische Arbeit" } }
+    }]
+}, {
+    "quantity": "Horizontal distance",
+    "categories": [{
+        "title": "Horizontal throw",
+        "equations": [{ "equation": "v_0 * t" }, { "equation": "sqrt( - 2 * y * v_0^2 / g_0 )" }],
+        "locals": { "de": { "title": "Waagerechter Wurf" } }
+    }, {
+        "title": "Oblique throw",
+        "equations": [{ "equation": "v_0 * t * cos( θ )" }],
+        "locals": { "de": { "title": "Schräger Wurf" } }
+    }]
+}, {
+    "quantity": "Impulse",
+    "categories": [{
+        "title": "Impulses",
+        "equations": [
+            { "equation": "p_1 - p" },
+            { "equation": "m * ( v_1 - v )" },
+            { "equation": "F * ( t_1 - t )", "conditions": ["`F = const`"] }
+        ],
+        "locals": { "de": { "title": "Impulse" } }
+    }]
+}, {
+    "quantity": "Initial angle",
+    "categories": [{
+        "title": "Uniform rotation",
+        "equations": [{ "equation": "θ - ω * t" }],
+        "locals": { "de": { "title": "Gleichförmige Bewegung" } }
+    }, {
+        "title": "Evenly accelerated rotation",
+        "equations": [{ "equation": "θ - a_α / 2 * t^2 - ω_0 * t" }],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Rotation" } }
+    }]
+}, {
+    "quantity": "Initial angular velocity",
+    "categories": [{
+        "title": "Evenly accelerated rotation",
+        "equations": [
+            { "equation": "( θ - a_α / 2 * t^2 - θ_0 ) / t" },
+            { "equation": "ω - a_α * t" }
+        ],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Rotation" } }
+    }]
+}, {
+    "quantity": "Initial distance",
+    "categories": [{
+        "title": "Uniform rectilinear motion",
+        "equations": [{ "equation": "s - v * t" }],
+        "locals": { "de": { "title": "Gleichförmige geradlinige Bewegung" } }
+    }, {
+        "title": "Evenly accelerated movement",
+        "equations": [{ "equation": "s - a / 2 * t^2 - v_0 * t" }],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Bewegung" } }
+    }]
+}, {
+    "quantity": "Initial velocity",
+    "categories": [{
+        "title": "Evenly accelerated movement",
+        "equations": [{ "equation": "v - a * t" }, { "equation": "( s - s_0 - a / 2 * t^2 ) / t" }],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Bewegung" } }
+    }, {
+        "title": "Vertical throw downwards",
+        "equations": [{ "equation": "- ( y + g_0 / 2 * t^2 ) / t" }, { "equation": "v - g_0 * t" }],
+        "locals": { "de": { "title": "Senkrechter Wurf nach unten" } }
+    }, {
+        "title": "Vertical throw upwards",
+        "equations": [
+            { "equation": "( y + g_0 / 2 * t^2 ) / t" },
+            { "equation": "v + g_0 * t" },
+            { "equation": "t * g_0", "conditions": ["´t´ - ascent time"], "locals": { "de": { "conditions": ["´t´ - Steigzeit"] } } },
+            { "equation": "sqrt( s / ( 2 * g_0 ) )", "conditions": ["´s´ - ascended height"], "locals": { "de": { "conditions": ["´t´ - Steighöhe"] } } }
+        ],
+        "locals": { "de": { "title": "Senkrechter Wurf nach oben" } }
+    }, {
+        "title": "Horizontal throw",
+        "equations": [
+            { "equation": "x / t" },
+            { "equation": "sqrt( - g_0 / ( 2 * y ) * x^2 )" },
+            { "equation": "sqrt( v^2 - g_0^2 * t^2 )" },
+            { "equation": "v", "conditions": ["Horizontal component"], "locals": { "de": { "conditions": ["Horizontale Komponente"] } } }
+        ],
+        "locals": { "de": { "title": "Waagerechter Wurf" } }
+    }, {
+        "title": "Oblique throw",
+        "equations": [
+            { "equation": "x / ( t * cos( θ ) )" },
+            { "equation": "( y + g_0 / 2 * t^2 ) / ( t * sin( θ ) )" },
+            { "equation": "v / cos( θ )", "conditions": ["`v` - horizontal component"], "locals": { "de": { "conditions": ["`v` - horizontale Komponente"] } } },
+            { "equation": "( v + g_0 * t ) / sin( θ )", "conditions": ["`v` - vertical component"], "locals": { "de": { "conditions": ["`v` - vertikale Komponente"] } } },
+            { "equation": "sqrt( 1 / ( θ * x - y ) * g_0 * x^2 * 1 / cos( θ )^2 )" },
+            { "equation": "sqrt( ( s * g_0 ) / sin( 2 * θ ) )", "conditions": ["`s` - throw length"], "locals": { "de": { "conditions": ["`s` - Wurfweite"] } } },
+            { "equation": "sqrt( ( 2 * s * g_0 ) / sin( θ )^2 )", "conditions": ["`s` - throw height"], "locals": { "de": { "conditions": ["`s` - Wurfhöhe"] } } },
+            { "equation": "( t * g_0 ) / sin( θ )", "conditions": ["`t` - ascent time"], "locals": { "de": { "conditions": ["`t` - Steigzeit"] } } }
+        ],
+        "locals": { "de": { "title": "Schräger Wurf" } }
+    }]
+}, {
+    "quantity": "Kinetic energy",
+    "categories": [{
+        "title": "Dynamics of rotation",
+        "equations": [{ "equation": "1 / 2 * I_m * ω^2" }],
+        "locals": { "de": { "title": "Dynamik der Rotation" } }
+    }, {
+        "title": "Dynamics of translation",
+        "equations": [{ "equation": "1 / 2 * m * v^2" }],
+        "locals": { "de": { "title": "Dynamik der Translation" } }
+    }, {
+        "title": "Mechanical energy",
+        "equations": [{ "equation": "E_mech - E_pot" }],
+        "locals": { "de": { "title": "Mechanische Energie" } }
+    }]
+}, {
+    "quantity": "Length",
+    "categories": [{
+        "title": "Dynamics of rotation",
+        "equations": [{ "equation": "sqrt( 12 * I_m / m )", "conditions": ["Thin long rod"], "locals": { "de": { "conditions": ["Langer dünner Stab"] } } }],
+        "locals": { "de": { "title": "Dynamik der Rotation" } }
+    }, {
+        "title": "Mechanical energy",
+        "equations": [{ "equation": "E_pot / w", "conditions": ["Distance of an object to earth's surface"], "locals": { "de": { "conditions": ["Distanz eines Objektes zu der Erdoberfläche"] } } }],
+        "locals": { "de": { "title": "Mechanische Energie" } }
+    }]
+}, {
+    "quantity": "Mass",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [
+            { "equation": "F / a" },
+            { "equation": "w / g_0" },
+            { "equation": "F_r * r / v^2" },
+            { "equation": "F_r * T_t^2 / ( 4 * π^2 * r )" },
+            { "equation": "F_r / ( ω^2 * r )" },
+            { "equation": "F * r^2 / ( G_N * m )" }
+        ],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Translation and rotation",
+        "equations": [{ "equation": "I_m / r^2", "conditions": ["For a ground point"], "locals": { "de": { "conditions": ["Für einen Massepunkt"] } } }],
+        "locals": { "de": { "title": "Translation und Rotation" } }
+    }, {
+        "title": "Impulses",
+        "equations": [{ "equation": "p / v" }],
+        "locals": { "de": { "title": "Impulse" } }
+    }, {
+        "title": "Dynamics of rotation",
+        "equations": [
+            { "equation": "12 * I_m / l^2", "conditions": ["Thin long rod"], "locals": { "de": { "conditions": ["Langer dünner Stab"] } } },
+            { "equation": "5 / 2 * I_m / r^2", "conditions": ["Sphere"], "locals": { "de": { "conditions": ["Kugel"] } } },
+            { "equation": "2 * I_m / r^2", "conditions": ["Cylinder"], "locals": { "de": { "conditions": ["Vollzylinder"] } } },
+            { "equation": "10 / 3 * I_m / r^2", "conditions": ["Straight circular cone"], "locals": { "de": { "conditions": ["Gerader Kreiskegel"] } } },
+            { "equation": "2 * I_m / ( r^2 + r_1^2 )", "conditions": ["Hollow cylinder", "`r` - outer radius", "`r_1` - inner radius"], "locals": { "de": { "conditions": ["Hohlzylinder", "`r` - äußerer Radius", "`r_1` - innerer Radius"] } } }
+        ],
+        "locals": { "de": { "title": "Dynamik der Rotation" } }
+    }, {
+        "title": "Dynamics of translation",
+        "equations": [{ "equation": "2 * E_kin / v^2" }],
+        "locals": { "de": { "title": "Dynamik der Translation" } }
+    }]
+}, {
+    "quantity": "Mechanical energy",
+    "categories": [{
+        "title": "Mechanical energy",
+        "equations": [{ "equation": "E_pot + E_kin" }],
+        "locals": { "de": { "title": "Mechanische Energie" } }
+    }]
+}, {
+    "quantity": "Moment of inertia",
+    "categories": [{
+        "title": "Translation and rotation",
+        "equations": [{ "equation": "m * r^2", "conditions": ["For a ground point", "Thin circular ring"], "locals": { "de": { "conditions": ["Für einen Massepunkt", "Dünner Kreisring"] } } }],
+        "locals": { "de": { "title": "Translation und Rotation" } }
+    }, {
+        "title": "Dynamics of rotation",
+        "equations": [
+            { "equation": "1 / 12 * m * l^2", "conditions": ["Thin long rod"], "locals": { "de": { "conditions": ["Langer dünner Stab"] } } },
+            { "equation": "2 / 5 * m * r^2", "conditions": ["Sphere"], "locals": { "de": { "conditions": ["Kugel"] } } },
+            { "equation": "1 / 2 * m * r^2", "conditions": ["Cylinder"], "locals": { "de": { "conditions": ["Vollzylinder"] } } },
+            { "equation": "3 / 10 * m * r^2", "conditions": ["Straight circular cone"], "locals": { "de": { "conditions": ["Gerader Kreiskegel"] } } },
+            { "equation": "1 / 2 * m * ( r^2 + r_1^2 )", "conditions": ["Hollow cylinder", "`r` - outer radius", "`r_1` - inner radius"], "locals": { "de": { "conditions": ["Hohlzylinder", "`r` - äußerer Radius", "`r_1` - innerer Radius"] } } },
+            { "equation": "τ / a_α" },
+            { "equation": "2 * E_kin / ω^2" },
+            { "equation": "L_α / ω" }
+        ],
+        "locals": { "de": { "title": "Dynamik der Rotation" } }
+    }]
+}, {
+    "quantity": "Momentum",
+    "categories": [{
+        "title": "Newton's laws",
+        "equations": [{ "equation": "F * t" }],
+        "locals": { "de": { "title": "Newtonsche Gesetze" } }
+    }, {
+        "title": "Impulses",
+        "equations": [{ "equation": "m * v" }],
+        "locals": { "de": { "title": "Impulse" } }
+    }]
+}, {
+    "quantity": "Normal force",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "F_R / μ_R" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }]
+}, {
+    "quantity": "Period",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "F_r / ( m * 4 * π^2 * r )" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Uniform circular motion",
+        "equations": [{ "equation": "2 * π * r / v" }],
+        "locals": { "de": { "title": "Gleichförmige Kreisbewegung" } }
+    }, {
+        "title": "Uniform rotation",
+        "equations": [{ "equation": "( 2 * π ) / ω" }],
+        "locals": { "de": { "title": "Gleichförmige Bewegung" } }
+    }]
+}, {
+    "quantity": "Plain angle",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "acos( W / ( F * s ) )", "conditions": ["`∠(F, s) = θ`"] }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Oblique throw",
+        "equations": [
+            { "equation": "acos( x / ( v_0 * t ) )" },
+            { "equation": "asin( ( y + g_0 / 2 * t^2 ) / ( v_0 * t ) )" },
+            { "equation": "asin( ( v_0^2 * g_0^2 * t^2 - v^2 ) / ( 2 * v_0 * g_0 * t ) )" },
+            { "equation": "acos( v / v_0 )", "conditions": ["`v` - horizontal component"], "locals": { "de": { "conditions": ["`v` - horizontale Komponente"] } } },
+            { "equation": "asin( ( v + g_0 * t ) / v_0 )", "conditions": ["`v` - vertical component"], "locals": { "de": { "conditions": ["`v` - vertikale Komponente"] } } },
+            { "equation": "asin( ( s * g_0 ) / v_0^2 ) / 2", "conditions": ["`s` - throw length"], "locals": { "de": { "conditions": ["`s` - Wurfweite"] } } },
+            { "equation": "asin( sqrt( ( 2 * s * g_0 ) / v_0^2 ) )", "conditions": ["`s` - throw height"], "locals": { "de": { "conditions": ["`s` - Wurfhöhe"] } } },
+            { "equation": "asin( ( t * g_0 ) / v_0 )", "conditions": ["`t` - ascent time"], "locals": { "de": { "conditions": ["`t` - Steigzeit"] } } }
+        ],
+        "locals": { "de": { "title": "Schräger Wurf" } }
+    }, {
+        "title": "Uniform rotation",
+        "equations": [{ "equation": "ω * t + θ_0" }],
+        "locals": { "de": { "title": "Gleichförmige Rotation" } }
+    }, {
+        "title": "Evenly accelerated rotation",
+        "equations": [
+            { "equation": "a_α / 2 * t^2 + ω_0 * t + θ_0" },
+            { "equation": "a_α / 2 * t^2", "conditions": ["`θ_0 = 0`", "`ω_0 = 0`"] }
+        ],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Rotation" } }
+    }, {
+        "title": "Translation and rotation",
+        "equations": [{ "equation": "s / r" }],
+        "locals": { "de": { "title": "Translation und Rotation" } }
+    }]
+}, {
+    "quantity": "Potential energy",
+    "categories": [{
+        "title": "Mechanical energy",
+        "equations": [
+            { "equation": "w * l", "conditions": ["`l` - distance of an object to earth's surface"], "locals": { "de": { "conditions": ["`l` - Distanz eines Objektes zu der Erdoberfläche"] } } },
+            { "equation": "1 / 2 * k_D * s^2" },
+            { "equation": "E_mech - E_kin" }
+        ],
+        "locals": { "de": { "title": "Mechanische Energie" } }
+    }]
+}, {
+    "quantity": "Power",
+    "categories": [{
+        "title": "Mechanical power",
+        "equations": [
+            { "equation": "W / t" },
+            { "equation": "F * v", "conditions": ["`v = const`", "`F = const`"] },
+            { "equation": "τ * ω", "conditions": ["`τ = const`", "`ω = const`"] }
+        ],
+        "locals": { "de": { "title": "Mechanische Leistung" } }
+    }]
+}, {
+    "quantity": "Pressure",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "F_p / A" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Mechanical work",
+        "equations": [{ "equation": "- W / ( V_1 - V )", "conditions": ["Volume work", "`p = const`"], "locals": { "de": { "conditions": ["Volumenarbeit", "`p = const`"] } } }],
+        "locals": { "de": { "title": "Mechanische Arbeit" } }
+    }]
+}, {
+    "quantity": "Pressure force",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "p_f * A" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }]
+}, {
+    "quantity": "Radius",
+    "categories": [{
+        "title": "Basics",
+        "equations": [{ "equation": "d / 2" }],
+        "locals": { "de": { "title": "Basis" } }
+    }, {
+        "title": "Forces in Mechanics",
+        "equations": [
+            { "equation": "F_r / ( m * v^2 )" },
+            { "equation": "F_r * T_t^2 / ( m * 4 * π^2 )" },
+            { "equation": "F_r / ( m * ω^2 )" },
+            { "equation": "F / ( G_N * m * m1 )" }
+        ],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Torque and balance",
+        "equations": [{ "equation": "τ / F", "conditions": ["`r ⊥ F`"] }],
+        "locals": { "de": { "title": "Drehmoment und Gleichgewicht" } }
+    }, {
+        "title": "Uniform rectilinear motion",
+        "equations": [{ "equation": "( v * T_t ) / ( 2 * π )" }],
+        "locals": { "de": { "title": "Gleichförmige geradlinige Bewegung" } }
+    }, {
+        "title": "Uniform circular motion",
+        "equations": [{ "equation": "v / ( 2 * π * n_ω )" }, { "equation": "v / ω" }, { "equation": "v^2 / a_α" }, { "equation": "a_α / ω^2" }],
+        "locals": { "de": { "title": "Gleichförmige Kreisbewegung" } }
+    }, {
+        "title": "Translation and rotation",
+        "equations": [
+            { "equation": "s / θ" },
+            { "equation": "v / ω" },
+            { "equation": "a / a_α" },
+            { "equation": "sqrt( I_m / m )", "conditions": ["For a ground point"], "locals": { "de": { "conditions": ["Für einen Massepunkt"] } } }
+        ],
+        "locals": { "de": { "title": "Translation und Rotation" } }
+    }, {
+        "title": "Dynamics of rotation",
+        "equations": [
+            { "equation": "sqrt( 5 / 2 * I_m / m )", "conditions": ["Sphere"], "locals": { "de": { "conditions": ["Kugel"] } } },
+            { "equation": "sqrt( 2 * I_m / m )", "conditions": ["Cylinder"], "locals": { "de": { "conditions": ["Vollzylinder"] } } },
+            { "equation": "sqrt( 10 / 3 * I_m / m )", "conditions": ["Straight circular cone"], "locals": { "de": { "conditions": ["Gerader Kreiskegel"] } } },
+            { "equation": "sqrt( 2 * I_m / m - r^2 )", "conditions": ["Outer/Inner radius of a hollow cylinder", "`r` - inner/outer radius"], "locals": { "de": { "conditions": ["Äußerer/Innerer Radius eines Hohlzylinders", "`r` - innerer/äußerer Radius"] } } }
+        ],
+        "locals": { "de": { "title": "Dynamik der Rotation" } }
+    }]
+}, {
+    "quantity": "Rotation number",
+    "categories": [{
+        "title": "Uniform circular motion",
+        "equations": [{ "equation": "v / ( 2 * π * r )" }],
+        "locals": { "de": { "title": "Gleichförmige Kreisbewegung" } }
+    }, {
+        "title": "Uniform rotation",
+        "equations": [{ "equation": "ω / ( 2 * π )" }],
+        "locals": { "de": { "title": "Gleichförmige Bewegung" } }
+    }]
+}, {
+    "quantity": "Spring constant",
+    "categories": [{
+        "title": "Mechanical work",
+        "equations": [{ "equation": "2 * W / s^2", "conditions": ["Spring tensioning work"], "locals": { "de": { "conditions": ["Federspannarbeit"] } } }],
+        "locals": { "de": { "title": "Mechanische Arbeit" } }
+    }, {
+        "title": "Mechanical energy",
+        "equations": [{ "equation": "2 * E_pot / s^2" }],
+        "locals": { "de": { "title": "Mechanische Energie" } }
+    }]
+}, {
+    "quantity": "Time",
+    "categories": [{
+        "title": "Newton's laws",
+        "equations": [{ "equation": "p / F" }],
+        "locals": { "de": { "title": "Newtonsche Gesetze" } }
+    }, {
+        "title": "Movement",
+        "equations": [{ "equation": "v / a" }],
+        "locals": { "de": { "title": "Beliebige Bewegung" } }
+    }, {
+        "title": "Uniform rectilinear motion",
+        "equations": [{ "equation": "( s - s_0 ) / v" }],
+        "locals": { "de": { "title": "Gleichförmige geradlinige Bewegung" } }
+    }, {
+        "title": "Evenly accelerated movement",
+        "equations": [{ "equation": "( v - v_0 ) / a" }, { "equation": "sqrt( 2 * s / a )" }],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Bewegung" } }
+    }, {
+        "title": "Freefall",
+        "equations": [{ "equation": "v / g_0" }],
+        "locals": { "de": { "title": "Freier Fall" } }
+    }, {
+        "title": "Vertical throw downwards",
+        "equations": [{ "equation": "( - v - v_0 ) / g_0" }],
+        "locals": { "de": { "title": "Senkrechter Wurf nach unten" } }
+    }, {
+        "title": "Vertical throw upwards",
+        "equations": [
+            { "equation": "( v_0 - v ) / g_0" },
+            { "equation": "v_0 / g_0", "conditions": ["Ascent time"], "locals": { "de": { "conditions": ["Steigzeit"] } } }
+        ],
+        "locals": { "de": { "title": "Senkrechter Wurf nach oben" } }
+    }, {
+        "title": "Horizontal throw",
+        "equations": [
+            { "equation": "x / v_0" },
+            { "equation": "sqrt( - 2 * y / g_0 )" },
+            { "equation": "sqrt( ( v^2 - v_0^2 ) / g_0^2 )" },
+            { "equation": "- v / g_0", "conditions": ["Vertical component"], "locals": { "de": { "conditions": ["Vertikale Komponente"] } } }
+        ],
+        "locals": { "de": { "title": "Waagerechter Wurf" } }
+    }, {
+        "title": "Oblique throw",
+        "equations": [
+            { "equation": "x / ( v_0 * cos( θ ) )" },
+            { "equation": "( v_0 * sin( θ ) - v ) / g_0", "conditions": ["`v` - vertical component"], "locals": { "de": { "conditions": ["`v` - vertikale Komponente"] } } },
+            { "equation": "( v_0 * sin( θ ) ) / g_0", "conditions": ["Ascent time"], "locals": { "de": { "conditions": ["Steigzeit"] } } }
+        ],
+        "locals": { "de": { "title": "Schräger Wurf" } }
+    }, {
+        "title": "Uniform rotation",
+        "equations": [{ "equation": "( θ - θ_0 ) / ω" }],
+        "locals": { "de": { "title": "Gleichförmige Bewegung" } }
+    }, {
+        "title": "Evenly accelerated rotation",
+        "equations": [
+            { "equation": "( ω - ω_0 ) / a_α" },
+            { "equation": "sqrt( ( 2 * θ ) / a_α )", "conditions": ["`θ_0 = 0`", "`ω_0 = 0`"] },
+            { "equation": "ω / a_α", "conditions": ["`θ_0 = 0`", "`ω_0 = 0`"] }
+        ],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Rotation" } }
+    }, {
+        "title": "Mechanical power",
+        "equations": [{ "equation": "W / P" }],
+        "locals": { "de": { "title": "Mechanische Leistung" } }
+    }]
+}, {
+    "quantity": "Torque",
+    "categories": [{
+        "title": "Torque and balance",
+        "equations": [{ "equation": "r * F", "conditions": ["`r ⊥ F`"] }],
+        "locals": { "de": { "title": "Drehmoment und Gleichgewicht" } }
+    }, {
+        "title": "Dynamics of rotation",
+        "equations": [{ "equation": "I_m * a_α" }],
+        "locals": { "de": { "title": "Dynamik der Rotation" } }
+    }, {
+        "title": "Mechanical power",
+        "equations": [{ "equation": "P / ω", "conditions": ["`τ = const`", "`ω = const`"] }],
+        "locals": { "de": { "title": "Mechanische Leistung" } }
+    }]
+}, {
+    "quantity": "Velocity",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "sqrt( F_r * r / m )" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Movement",
+        "equations": [{ "equation": "a * t" }],
+        "locals": { "de": { "title": "Beliebige Bewegung" } }
+    }, {
+        "title": "Uniform rectilinear motion",
+        "equations": [{ "equation": "( s - s_0 ) / t" }],
+        "locals": { "de": { "title": "Gleichförmige geradlinige Bewegung" } }
+    }, {
+        "title": "Uniform circular motion",
+        "equations": [{ "equation": "2 * π * r / T_t" }, { "equation": "2 * π * r * n_ω" }, { "equation": "ω * r" }, { "equation": "sqrt( a_α * r )" }],
+        "locals": { "de": { "title": "Gleichförmige Kreisbewegung" } }
+    }, {
+        "title": "Evenly accelerated movement",
+        "equations": [{ "equation": "a * t + v_0" }],
+        "locals": { "de": { "title": "Gleichmäßig beschleunigte Bewegung" } }
+    }, {
+        "title": "Freefall",
+        "equations": [{ "equation": "g_0 * t" }, { "equation": "sqrt( 2 * g_0 * s )" }],
+        "locals": { "de": { "title": "Freier Fall" } }
+    }, {
+        "title": "Vertical throw downwards",
+        "equations": [{ "equation": "- v_0 - g_0 * t" }],
+        "locals": { "de": { "title": "Senkrechter Wurf nach unten" } }
+    }, {
+        "title": "Vertical throw upwards",
+        "equations": [{ "equation": "v_0 - g_0 * t" }],
+        "locals": { "de": { "title": "Senkrechter Wurf nach oben" } }
+    }, {
+        "title": "Horizontal throw",
+        "equations": [
+            { "equation": "sqrt( v_0^2 + g_0^2 * t^2 )" },
+            { "equation": "v_0", "conditions": ["Horizontal component"], "locals": { "de": { "conditions": ["Horizontale Komponente"] } } },
+            { "equation": "- g_0 * t", "conditions": ["Vertical component"], "locals": { "de": { "conditions": ["Vertikale Komponente"] } } }
+        ],
+        "locals": { "de": { "title": "Waagerechter Wurf" } }
+    }, {
+        "title": "Oblique throw",
+        "equations": [
+            { "equation": "sqrt( v_0^2 + g_0^2 * t^2 - 2 * v_0 * g_0 * t * sin( θ ) )" },
+            { "equation": "v_0 * cos( θ )", "conditions": ["Horizontal component"], "locals": { "de": { "conditions": ["Horizontale Komponente"] } } },
+            { "equation": "v_0 * cos( θ ) - g_0 * t", "conditions": ["Vertical component"], "locals": { "de": { "conditions": ["Vertikale Komponente"] } } }
+        ],
+        "locals": { "de": { "title": "Schräger Wurf" } }
+    }, {
+        "title": "Translation and rotation",
+        "equations": [{ "equation": "ω * r" }],
+        "locals": { "de": { "title": "Translation und Rotation" } }
+    }, {
+        "title": "Impulses",
+        "equations": [{ "equation": "p / m" }],
+        "locals": { "de": { "title": "Impulse" } }
+    }, {
+        "title": "Dynamics of translation",
+        "equations": [{ "equation": "sqrt( 2 * E_kin / m )" }],
+        "locals": { "de": { "title": "Dynamik der Translation" } }
+    }, {
+        "title": "Mechanical power",
+        "equations": [{ "equation": "P / F", "conditions": ["`v = const`", "`F = const`"] }],
+        "locals": { "de": { "title": "Mechanische Leistung" } }
+    }]
+}, {
+    "quantity": "Vertical distance",
+    "categories": [{
+        "title": "Vertical throw downwards",
+        "equations": [{ "equation": "- v_0 * t - g_0 / 2 * t^2" }],
+        "locals": { "de": { "title": "Senkrechter Wurf nach unten" } }
+    }, {
+        "title": "Vertical throw upwards",
+        "equations": [{ "equation": "v_0 * t - g_0 / 2 * t^2" }],
+        "locals": { "de": { "title": "Senkrechter Wurf nach oben" } }
+    }, {
+        "title": "Horizontal throw",
+        "equations": [{ "equation": "- g_0 / 2 * t^2" }, { "equation": "- g_0 / ( 2 * v_0^2 ) * x^2" }],
+        "locals": { "de": { "title": "Waagerechter Wurf" } }
+    }, {
+        "title": "Oblique throw",
+        "equations": [
+            { "equation": "v_0 * t * sin( θ ) - g_0 / 2 * t^2" },
+            { "equation": "tan( θ ) * x - ( g_0 / ( 2 * v_0^2 * cos( θ )^2 ) ) * x^2" }
+        ],
+        "locals": { "de": { "title": "Schräger Wurf" } }
+    }]
+}, {
+    "quantity": "Volume",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "F_B / ( ρ * g_0 )" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }]
+}, {
+    "quantity": "Weight",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [{ "equation": "m * g_0" }],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Mechanical work",
+        "equations": [{ "equation": "W / s", "conditions": ["Lifting work"], "locals": { "de": { "conditions": ["Hubarbeit"] } } }],
+        "locals": { "de": { "title": "Mechanische Arbeit" } }
+    }, {
+        "title": "Mechanical energy",
+        "equations": [{ "equation": "E_pot / l", "conditions": ["`l` - distance of an object to earth's surface"], "locals": { "de": { "conditions": ["`l` - Distanz eines Objektes zu der Erdoberfläche"] } } }],
+        "locals": { "de": { "title": "Mechanische Energie" } }
+    }]
+}, {
+    "quantity": "Work",
+    "categories": [{
+        "title": "Forces in Mechanics",
+        "equations": [
+            { "equation": "E_i_1 - E_i" },
+            { "equation": "F * s", "conditions": ["`∠(F, s) = 0`"] },
+            { "equation": "F * s * cos( θ )" }
+        ],
+        "locals": { "de": { "title": "Kräfte in der Mechanik" } }
+    }, {
+        "title": "Mechanical work",
+        "equations": [
+            { "equation": "w * s", "conditions": ["Lifting work"], "locals": { "de": { "conditions": ["Hubarbeit"] } } },
+            { "equation": "F_R * s", "conditions": ["Friction work"], "locals": { "de": { "conditions": ["Reibungsarbeit"] } } },
+            { "equation": "1 / 2 * k_D * s^2", "conditions": ["Spring tensioning work"], "locals": { "de": { "conditions": ["Federspannarbeit"] } } },
+            { "equation": "- p_f * ( V_1 - V )", "conditions": ["Volume work", "`p = const`"], "locals": { "de": { "conditions": ["Volumenarbeit", "`p = const`"] } } }
+        ],
+        "locals": { "de": { "title": "Mechanische Arbeit" } }
+    }, {
+        "title": "Mechanical power",
+        "equations": [{ "equation": "P * t" }],
+        "locals": { "de": { "title": "Mechanische Leistung" } }
+    }]
+}]

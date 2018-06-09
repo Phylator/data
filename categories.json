@@ -1,0 +1,46 @@
+[{
+    "name": "Mechanics",
+    "description": "Expand Phylator's abilities in the area of mechanics.",
+    "locals": {
+        "de": {
+            "name": "Mechanik",
+            "description": "Erweitere Phylators Möglichkeiten in dem Bereich der Mechanik."
+        }
+    }
+}, {
+    "name": "Thermodynamics",
+    "description": "Expand Phylator's abilities in the area of thermodynamics.",
+    "locals": {
+        "de": {
+            "name": "Thermodynamik",
+            "description": "Erweitere Phylators Möglichkeiten in dem Bereich der Thermodynamik."
+        }
+    }
+}, {
+    "name": "Electromagnetism",
+    "description": "Expand Phylator's abilities in the area of electromagnetism.",
+    "locals": {
+        "de": {
+            "name": "Elektromagnetismus",
+            "description": "Erweitere Phylators Möglichkeiten in dem Bereich des Elektromagnetismus."
+        }
+    }
+}, {
+    "name": "Quantum mechanics",
+    "description": "Expand Phylator's abilities in the area of quantum Mechanics.",
+    "locals": {
+        "de": {
+            "name": "Quantenmechanik",
+            "description": "Erweitere Phylators Möglichkeiten in dem Bereich der Quantenmechanik."
+        }
+    }
+}, {
+    "name": "Chemical physics",
+    "description": "Expand Phylator's abilities in the area of chemical physics.",
+    "locals": {
+        "de": {
+            "name": "Chemische Physik",
+            "description": "Erweitere Phylators Möglichkeiten in dem Bereich der chemischen Physik."
+        }
+    }
+}]

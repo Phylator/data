@@ -1,0 +1,181 @@
+[{
+    "symbol": "Y",
+    "name": "yotta",
+    "to_base": "*1000000000000000000000000",
+    "locals": {
+        "de": {
+            "name": "Yotta"
+        }
+    }
+}, {
+    "symbol": "Z",
+    "name": "zetta",
+    "to_base": "*1000000000000000000000",
+    "locals": {
+        "de": {
+            "name": "Zetta"
+        }
+    }
+}, {
+    "symbol": "E",
+    "name": "exa",
+    "to_base": "*1000000000000000000",
+    "locals": {
+        "de": {
+            "name": "Exa"
+        }
+    }
+}, {
+    "symbol": "P",
+    "name": "peta",
+    "to_base": "*1000000000000000",
+    "locals": {
+        "de": {
+            "name": "Peta"
+        }
+    }
+}, {
+    "symbol": "T",
+    "name": "tera",
+    "to_base": "*1000000000000",
+    "locals": {
+        "de": {
+            "name": "Tera"
+        }
+    }
+}, {
+    "symbol": "G",
+    "name": "giga",
+    "to_base": "*1000000000",
+    "locals": {
+        "de": {
+            "name": "Giga"
+        }
+    }
+}, {
+    "symbol": "M",
+    "name": "mega",
+    "to_base": "*1000000",
+    "locals": {
+        "de": {
+            "name": "Mega"
+        }
+    }
+}, {
+    "symbol": "k",
+    "name": "kilo",
+    "to_base": "*1000",
+    "locals": {
+        "de": {
+            "name": "Kilo"
+        }
+    }
+}, {
+    "symbol": "h",
+    "name": "hecto",
+    "to_base": "*100",
+    "locals": {
+        "de": {
+            "name": "Hecto"
+        }
+    }
+}, {
+    "symbol": "da",
+    "name": "deca",
+    "to_base": "*10",
+    "locals": {
+        "de": {
+            "name": "Deka"
+        }
+    }
+}, {
+    "symbol": "d",
+    "name": "deci",
+    "to_base": "/10",
+    "locals": {
+        "de": {
+            "name": "Dezi"
+        }
+    }
+}, {
+    "symbol": "c",
+    "name": "centi",
+    "to_base": "/100",
+    "locals": {
+        "de": {
+            "name": "Zenti"
+        }
+    }
+}, {
+    "symbol": "m",
+    "name": "milli",
+    "to_base": "/100000",
+    "locals": {
+        "de": {
+            "name": "Milli"
+        }
+    }
+}, {
+    "symbol": "μ",
+    "name": "micro",
+    "to_base": "/100000000",
+    "locals": {
+        "de": {
+            "name": "Mikro"
+        }
+    }
+}, {
+    "symbol": "n",
+    "name": "nano",
+    "to_base": "/100000000000",
+    "locals": {
+        "de": {
+            "name": "Nano"
+        }
+    }
+}, {
+    "symbol": "p",
+    "name": "pico",
+    "to_base": "/100000000000000",
+    "locals": {
+        "de": {
+            "name": "Piko"
+        }
+    }
+}, {
+    "symbol": "f",
+    "name": "femto",
+    "to_base": "/100000000000000000",
+    "locals": {
+        "de": {
+            "name": "Femto"
+        }
+    }
+}, {
+    "symbol": "a",
+    "name": "atto",
+    "to_base": "/100000000000000000000",
+    "locals": {
+        "de": {
+            "name": "Atto"
+        }
+    }
+}, {
+    "symbol": "z",
+    "name": "zepto",
+    "to_base": "/100000000000000000000000",
+    "locals": {
+        "de": {
+            "name": "Zepto"
+        }
+    }
+}, {
+    "symbol": "y",
+    "name": "yocto",
+    "to_base": "/100000000000000000000000000",
+    "locals": {
+        "de": {
+            "name": "Yocto"
+        }
+    }
+}]

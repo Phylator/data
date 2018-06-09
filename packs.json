@@ -1,0 +1,144 @@
+[{
+    "name": "Basics",
+    "description": "Everything you need to get started with simple calculations of mechanics.",
+    "price": 0,
+    "category": "Mechanics",
+    "locals": {
+        "de": {
+            "name": "Basis",
+            "description": "Alles, was Du brauchst, um mit einfachen Berechnungen in der Mechanik zu beginnen."
+        }
+    }
+}, {
+    "name": "Kinematics",
+    "description": "Expand Phylator to include quantities of kinematics.",
+    "price": 3,
+    "category": "Mechanics",
+    "locals": {
+        "de": {
+            "name": "Kinematik",
+            "description": "Erweitere Phylator um neue Größen der Kinematik."
+        }
+    }
+}, {
+    "name": "Dynamics",
+    "description": "Expand Phylator to include quantities of dynamics.",
+    "price": 3,
+    "category": "Mechanics",
+    "locals": {
+        "de": {
+            "name": "Dynamik",
+            "description": "Erweitere Phylator um neue Größen der Dynamik."
+        }
+    }
+}, {
+    "name": "Basics",
+    "description": "Everything you need to get started with simple calculations of thermodynamics.",
+    "price": 0,
+    "category": "Thermodynamics",
+    "locals": {
+        "de": {
+            "name": "Basis",
+            "description": "Alles, was Du brauchst, um mit einfachen Berechnungen in Thermodynamik zu beginnen."
+        }
+    }
+}, {
+    "name": "Advanced",
+    "description": "Expand Phylator to advance its capabilities in thermodynamics.",
+    "price": 3,
+    "category": "Thermodynamics",
+    "locals": {
+        "de": {
+            "name": "Erweitert",
+            "description": "Erweitere Phylator um neue Größen der Thermodynamik."
+        }
+    }
+}, {
+    "name": "Basics",
+    "description": "Everything you need to get started with simple calculations of electromagnetism.",
+    "price": 0,
+    "category": "Electromagnetism",
+    "locals": {
+        "de": {
+            "name": "Basis",
+            "description": "Alles, was Du brauchst, um mit einfachen Berechnungen zum Elektromagnetismus zu beginnen."
+        }
+    }
+}, {
+    "name": "Electricity",
+    "description": "Expand Phylator to include quantities of electricity.",
+    "price": 3,
+    "category": "Electromagnetism",
+    "locals": {
+        "de": {
+            "name": "Elektrizität",
+            "description": "Erweitere Phylator um neue Größen der Elektrizität."
+        }
+    }
+}, {
+    "name": "Magnetism",
+    "description": "Expand Phylator to include quantities of magnetism.",
+    "price": 3,
+    "category": "Electromagnetism",
+    "locals": {
+        "de": {
+            "name": "Magnetismus",
+            "description": "Erweitere Phylator um neue Größen der Magnetismus."
+        }
+    }
+}, {
+    "name": "Optics",
+    "description": "Expand Phylator to include quantities of optics.",
+    "price": 3,
+    "category": "Electromagnetism",
+    "locals": {
+        "de": {
+            "name": "Optik",
+            "description": "Erweitere Phylator um neue Größen der Optik."
+        }
+    }
+}, {
+    "name": "Relativity",
+    "description": "Everything you need to get started with simple calculations of relativity in quantum mechanics.",
+    "price": 0,
+    "category": "Quantum mechanics",
+    "locals": {
+        "de": {
+            "name": "Relativität",
+            "description": "Alles, was Du brauchst, um mit einfachen Berechnungen zu Relativität zu beginnen."
+        }
+    }
+}, {
+    "name": "Basics",
+    "description": "Expand Phylator to advance its capabilities in quantum mechanics.",
+    "price": 3,
+    "category": "Quantum mechanics",
+    "locals": {
+        "de": {
+            "name": "Basis",
+            "description": "Erweitere Phylator um neue Größen der Quantenmechanik."
+        }
+    }
+}, {
+    "name": "Basics",
+    "description": "Everything you need to get started with simple calculations of chemical physics.",
+    "price": 3,
+    "category": "Chemical physics",
+    "locals": {
+        "de": {
+            "name": "Basis",
+            "description": "Alles, was Du brauchst, um mit einfachen Berechnungen in der chemischen Physik zu beginnen."
+        }
+    }
+}, {
+    "name": "Advanced",
+    "description": "Expand Phylator to advance its capabilities in chemical physics.",
+    "price": 3,
+    "category": "Chemical physics",
+    "locals": {
+        "de": {
+            "name": "Erweitert",
+            "description": "Erweitere Phylator um neue Größen der chemischen Physik."
+        }
+    }
+}]
